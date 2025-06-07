@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+nav{
+    background-color: #F85606;
+    padding-bottom: 30px;
+}
+
+
+.menu-item-parent{
+    padding-top: 10px;
+}
+.menu-item-parent ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 120px;
+
+}
+.menu-item-parent ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+.menu-item-parent ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.logo-image img{
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+
+.logo-item-parent{
+    display: flex;
+}
+
+.search-and-icon-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 95px;
+}
+
+.search-and-icon input{
+     width: 550px;
+     height: 48px;
+     font-size: 15px;
+     font-weight: bold;
+     padding: 0 10px;
+}
+.search-icon{
+    color: #F85606;
+    font-size: 20px;
+    padding: 12px;
+    margin-top: -1px;
+    margin-left: -1px;
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+.search-and-icon-cart{
+    
+}
+.search-and-icon-cart i{
+    font-size: 35px;
+    margin-left: 50px;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* header part css code start here */
+
+
+header{
+    
+}
+.baner-image{
+    width: 1200px;
+    margin: auto;
+}
+.baner-image img{
+    width: 100%;
+}
