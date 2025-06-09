@@ -2,7 +2,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
+}
+
+body{
+    background-color: #F5F5F5;
 }
 
 nav{
@@ -91,3 +94,86 @@ header{
 .baner-image img{
     width: 100%;
 }
+
+
+
+/* main section code start */
+
+
+main{
+    background-color: #F5F5F5;
+}
+
+.flash-sale{
+   width: 1200px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   margin: auto;
+   margin-top: 20px;
+   padding-top: 20px;
+}
+
+section{
+    background-color: #FFFFFF;
+    width: 1200px;
+    margin: auto;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+}
+
+.title-area-parent{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: #F85606;
+    margin-top: 20px;
+    border-bottom: 1px solid black;
+}
+.first-title h4{
+    margin-left: 15px;
+    padding-top: 15px;
+}
+
+.button{
+    margin-bottom: 20px;
+    padding-top: 17px;
+}
+.button button{
+    font-size: 16px;
+    font-weight: bold;
+    color: #F85606;
+    margin-right: 20px;
+    
+    border-color: #F85606;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+
+#first-section-cart-parent{
+    display: grid;
+    width: 1200px;
+    grid-template-columns: repeat(6, 190px);
+    grid-column-gap: 12px;
+    margin-top: 20px;
+}
+
+
+.first-cart img{
+    height: 200px;
+    width: 100%;
+}
+
+.spacification h5{
+    font-size: 20px;
+    color: #F85606;
+}
+.spacification span del{
+    color: gray;
+}
+
+
+
+
