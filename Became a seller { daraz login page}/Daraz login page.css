@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+#header-title{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+.header-title-container{
+    margin-left: 85px;
+}
+.header-title-container img{
+    width: 150px;
+    cursor: pointer;
+}
+
+
+
+.countrt-language{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.national-flag{
+
+}
+.national-flag img{
+    width: 30px;
+    cursor: pointer;
+}
+.country{
+    margin-left: 10px;
+}
+.country a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    transition: 0.5s;
+}
+.country a:hover{
+    color: #F85606;
+}
+.country i{
+    color: #F85606;
+}
+
+
+.language{
+    margin-right: 85px;
+    margin-left: 30px;
+}
+.language a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    transition: 0.5s;
+}
+.language a:hover{
+    color: #F85606;
+}
+.language a i{
+    color: #F85606;
+}
+
+
+/* first section code start */
+
+.button{
+    display: flex;
+    justify-content: flex-end;
+}

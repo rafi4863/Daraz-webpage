@@ -11,6 +11,8 @@ body{
 nav{
     background-color: #F85606;
     padding-bottom: 30px;
+    position: sticky;
+    top: 0;
 }
 
 
@@ -144,7 +146,8 @@ section{
     font-weight: bold;
     color: #F85606;
     margin-right: 20px;
-    
+    background-color: #FFFFFF;
+    border: 1px solid #F85606;
     border-color: #F85606;
     padding: 5px 10px;
     cursor: pointer;
