@@ -103,7 +103,6 @@ section{
 
 #title-and-login-area-container{
     width: 1200px;
-    border: 2px solid black;
     margin: auto;
     margin-top: 10px ;
     display: flex;
@@ -113,7 +112,6 @@ section{
 
 .title-section{
     width: 700px;
-    border: 2px solid black;
 }
 
 .title-text h2{
@@ -147,6 +145,7 @@ h3{
     border: 2px solid white;
     margin-top: 25px;
     border-radius: 25px;
+     background-color: #fff;
    
 }
 .login-section-container h3{
@@ -172,7 +171,6 @@ h3{
     padding-left: 10px;
     font-weight: bold;
     border-radius: 6px;
-    border: none;
 }
 .email-section input:hover{
     outline-color: #F85606;
@@ -194,8 +192,56 @@ h3{
     font-weight: bold;
     padding-left: 10px;
     border-radius: 6px;
-    border: none;
 }
 .password input:hover{
     outline-color: #F85606;
+}
+
+
+.log-in-button{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.log-in-button button{
+    padding: 8px 175px;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-left: -6px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #F85606;
+    border: none;
+}
+
+.accounts{
+    margin-top: 20px;
+    width: 400px;
+    margin-left: 50px;
+}
+.first{
+    margin-left: 290px;
+    margin-bottom: 5px;
+}
+.first a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.second{
+     margin-left: 272px;
+    margin-bottom: 5px;
+}
+.second a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.third{
+    margin-left: 233px;
+    margin-bottom: 5px;
+}
+.third a{
+    text-decoration: none;
+    font-weight: bold;
 }
