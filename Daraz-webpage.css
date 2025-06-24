@@ -115,7 +115,7 @@ main{
    padding-top: 20px;
 }
 
-section{
+#first-section{
     background-color: #FFFFFF;
     width: 1200px;
     margin: auto;
@@ -163,7 +163,12 @@ section{
     margin-top: 20px;
 }
 
-
+.first-cart{
+    cursor: pointer;
+}
+.first-cart:hover{
+    box-shadow: 0px 1px 3px gray;
+}
 .first-cart img{
     height: 200px;
     width: 100%;
@@ -178,5 +183,91 @@ section{
 }
 
 
+/* second section code start now */
 
 
+#second-section{
+    width: 1200px;
+    margin: auto;
+    background-color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.categories{
+    width: 1200px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.categories h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.categories-container{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.first-box{
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+}
+.first-box:hover{
+   box-shadow: 1px 1px 5px black;
+}
+.image{
+    padding: 12px 0;
+}
+.image img{
+    height: 90px;
+}
+
+
+
+.forUtitle{
+    width: 1200px;
+    margin: auto;
+}
+
+
+#just-for-you-section-container{
+    background-color: white;
+    width: 1200px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.just-for-parent{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    padding: 20px 0px 20px 0px;
+}
+
+.images{
+    transition: 0.5s;
+}
+.images:hover{
+   box-shadow: 3px 3px 3px black; 
+   cursor: pointer;
+}
+.images .img img{
+    width: 100%;
+    height: 200px;
+}
+.title-area{
+    margin-left: 7px;
+}
+.title-area span{
+    color: gray;
+}
+.title-area .৳{
+    font-size: 22px;
+    color: #F85606;
+    font-weight: bold;
+}
